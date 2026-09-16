@@ -1,0 +1,81 @@
+:root {
+  --color-text: #1bf54e;         /* green */      
+  --color-text-dimmed: #f7f148;   /* yellow */
+  --color-text-bright: #99dfe8;     /* blue */
+  --color-background: #363636;
+  --font-primary: "Roboto Condensed";
+  --font-secondary: "Roboto";
+  --font-size: 20px;
+  --font-size-xsmall: 0.75rem;
+  --font-size-small: 1rem;
+  --font-size-medium: 1.2rem;  /* changed from 1.5 for weather module size */
+  --font-size-large: 3.25rem;
+  --font-size-xlarge: 3.75rem;
+  --gap-body-top: 10px;
+  --gap-body-right: 10px;
+  --gap-body-bottom: 10px;
+  --gap-body-left: 10px;
+  --gap-modules: 30px;
+}
+
+
+* {
+  opacity: 1 !important;
+}
+}
+
+/* Reduce or eliminate top bar margins and padding */
+.region.top.bar {
+  min-height: 0px;
+}
+
+.region.top.bar .container {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+/* Shrink margins on modules inside the top bar */
+.region.top.bar .module {
+  margin-bottom: 5px; /* Change to 0px to completely eliminate gap */
+}
+
+/* Optional: Reduce general body top margin if space persists */
+body {
+  margin-top: 10px; /* Default is often 60px */
+}
+/* 1. Completely hide the symbol cell and kill its width */
+.calendar .calendar-table td.symbol {
+  display: none !important;
+  width: 0px !important;
+  padding: 0px !important;
+}
+
+/* 2. Force the title cell to align perfectly left */
+.calendar .calendar-table td.title {
+  text-align: left !important;
+  padding-left: 0px !important;
+}
+
+/* 3. Force the calendar header to align left */
+.calendar header {
+  text-align: left !important;
+}
+span.fas.fa-fw-false {
+  display: inline-block;
+  width: 0px;
+  height: 0px;
+  float: left; /* Optional: ensures it shifts left itself */
+}
+
+td.symbol {
+  width: 0 !important;
+  max-width: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  white-space: nowrap !important;
+  border: none !important; /* Removes borders that take up pixels */
+}
+html {
+  cursor: unset;
+}
+
