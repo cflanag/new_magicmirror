@@ -9,7 +9,7 @@
     - Does NOT need router WiFi, does NOT need to know transmitter MACs
       in advance (ESP-NOW receive works for any sender on the same channel)
 
-  THIS RECEIVER'S OWN MAC ADDRESS: AC:27:6E:7F:17:D8
+  THIS RECEIVER'S OWN MAC ADDRESS: 
     -> Each transmitter sketch must send to this address.
     -> Print it again at boot (below) so you can double check it hasn't
        changed (MAC can shift if you flash a different chip).
