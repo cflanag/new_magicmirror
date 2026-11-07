@@ -119,7 +119,7 @@
 		module: "MMM-APOD",
 		position: "bottom_left",
 		config: {
-			appid: "ETycVoZz3E4TSi7ldn1ehmUUPJCpTD8MzR4LJsWk", // NASA API key (api.nasa.gov)
+			appid: "", // NASA API key (api.nasa.gov)
             initialLoadDelay: 3000, // Delays the aAPI call for 3 seconds
 			maxMediaWidth: 290,
 			maxMediaHeight: 240
@@ -130,7 +130,7 @@
 		module: "MMM-APOD2",
 		position: "top_center",
 		config: {
-			appid: "ETycVoZz3E4TSi7ldn1ehmUUPJCpTD8MzR4LJsWk", // NASA API key (api.nasa.gov)
+			appid: "", // NASA API key (api.nasa.gov)
             showDescription: true,
             useShortDescription: false,
 			maxMediaWidth: 1000,
