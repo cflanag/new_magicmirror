@@ -92,7 +92,7 @@ DFRobot_DHT20 dht20;
 RTC_DS3231 rtc;
 
 //MAC Address of the receiver
-uint8_t receiverAddress[] = {0xAC, 0x27, 0x6E, 0x7F, 0x17, 0xD8};
+uint8_t receiverAddress[] = {0xAA, 0xAA, 0xAA, 0xAA, 0xAA, 0xAA};
 
 //Structure example to send data
 //Must match the receiver structure
